@@ -1,8 +1,7 @@
-@charset "UTF-8";
+@charset "UTF-8"; 
 
 @import url('https://fonts.googleapis.com/css2?family=Liter&family=Stoke:wght@300;400&family=Trykker&display=swap');
-@import url(tela01.css); 
-
+@import url(tela01.css);
 
 :root{
     --corazulforte:#28315E;
@@ -38,3 +37,4 @@ input#botao{
     background-color: var(--corazulfraco);
     color: var(--corbranco);
 }
+
