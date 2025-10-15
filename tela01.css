@@ -64,17 +64,18 @@ article{
     border-radius: 10px;
 }
 
-h1{
+aside{
+    margin: 70px;
+    padding: 1%;
+}
+
+h1, h2, h3, h4, h5, h6{
     font-family: var(--fonte-titulos);
 }
 
 p{
     font-family: var(--fonte-texto);
     font-size: 18px;
-}
-
-img{
-    width: 100%;
 }
 
 footer{
