@@ -8,25 +8,51 @@
 </head>
 <body>
     <header>
-        <h1><a href="tela1.html">Olho Futuro</a></h1>
+        <h1>Olho Futuro</h1>
         <nav>
             
         </nav>
     </header>
     <main>
-        <article>
-            <div>
-                <label for="usuario" method="post">teste</label>
-                <input type="text" name="" id="" required minlength="3" size="20">
-            </div>
-
-            <div>
-                <label for="senha" method="post">teste2</label>
-                <input type="password" name="" id="" required minlength="8" maxlength="12" size="14">
-            </div>
-
-            <a href="tela1.html"><input type="button" value="Acessar" id="botao"></a>
-        </article>
+        <section>
+            
+            <form class="login-inicio" method="get">
+                <div class="login-titulo">
+                    Login
+                </div>
+                <div class="input-grupo">
+                    <label 
+                        class="label"
+                        for="usuario"
+                        method="post">RA:
+                    </label>
+                    <input
+                        type="number"
+                        name="ra"
+                        id="Idra"
+                        require = ""
+                        placeholder="Coloque seu RA">
+                </div>
+                <div class="input-grupo">
+                    <label
+                        class="label"
+                        for="senha"
+                        method="post">Senha:
+                    </label>
+                    <input
+                        type="password"
+                        name="senha"
+                        id="idsenha"
+                        required = ""
+                        placeholder="Coloque seu senha"
+                    >
+                </div>
+                <div class="nao-tem-cadastro">
+                    <a href="cadastro.html">Ta sem cadastro?</a>
+                </div>
+                <a href=""><input class="botao" type="submit" value="Acessar" id="botao"></a>
+            </form>
+        </section>
     </main>
     <footer><p><a href="https://github.com/LopesPJL" target="_blank">Criado por GuiLopes</a></p></footer>
 </body>

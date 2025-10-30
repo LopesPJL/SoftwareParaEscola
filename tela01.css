@@ -21,6 +21,11 @@
     margin: 0px;
 }
 
+body{
+    justify-content: center;
+    align-items: center;
+}
+
 header{
     background-color: var(--corazulforte);
     color: var(--corbranco);
@@ -30,6 +35,10 @@ header{
 header > h1{
     padding: 50px;
     font-size: 60px
+}
+
+h1{
+    color: white;
 }
 
 nav{

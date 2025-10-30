@@ -16,25 +16,77 @@
     --fonte-extra: "trykker", arial;
 }
 
-label{
-    margin: auto;
-    padding: auto;
+section{
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    margin: 50px;
+    border-radius: 30px;
 }
 
-div{
-    padding: 10px;
-    margin: 10px;
-    font-size: 20;
-    font-family: var(--fonte-texto);
+.login-inicio{
+    max-width: 620px;
+    width: 70%;
+    padding: 40px;
+    background-color: var(--corcinza);
+    border-radius: 12px;
+    box-shadow: 0 8px 15px black;
+    
 }
 
-input{
-    padding: 10px;
-    margin: 10px;
-    border-radius: 20px;
+.login-titulo{
+    text-align: center;
+    color: var(--corazulfraco);
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 25px;
+    letter-spacing: 1px;
 }
 
-input#botao{
-    background-color: var(--corazulfraco);
+.input-grupo{
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.input-grupo .label{
+    position: absolute;
+    top: -16px;
+    left: 12px;
+    font-size: 17px;
+    color: var(--corazulfraco);
+    font-weight: 600;
+} 
+
+.input-grupo input{
+    width: 275px;
+    padding: 15px 20px;
+    font-size: 1rem;
+    border: 2px solid var(--corbranco);
+    border-radius: 8px;
+    outline: none;
+}
+
+.nao-tem-cadastro{
+    text-align: right;
+    margin-bottom: 20px;
+}
+
+.nao-tem-cadastro a{
+    font-size: 14px;
+    color: var(--corazulforte);
+    text-decoration: none;
+}
+
+.botao{
+    width: 100%;
+    padding: 15px;
+    background-color: var(--corazulforte);
     color: var(--corbranco);
+    border: none;
+    border-radius: 30px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
 }

@@ -15,6 +15,11 @@
     --fonte-extra: "trykker", arial;
 }
 
+body{
+    justify-content: center;
+    align-items: center;
+}
+
 label{
     margin: auto;
     padding: auto;
