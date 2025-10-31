@@ -1,8 +1,7 @@
-@charset "UTF-8";
+@charset "UTF-8"; 
 
 @import url('https://fonts.googleapis.com/css2?family=Liter&family=Stoke:wght@300;400&family=Trykker&display=swap');
-@import url(tela01.css); 
-
+@import url(../tela01.css);
 
 :root{
     --corazulforte:#28315E;
@@ -16,8 +15,9 @@
     --fonte-extra: "trykker", arial;
 }
 
+
 section{
-    height: 50vh;
+    height: 70vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -33,7 +33,6 @@ section{
     background-color: var(--corcinza);
     border-radius: 12px;
     box-shadow: 0 8px 15px black;
-    
 }
 
 .login-titulo{

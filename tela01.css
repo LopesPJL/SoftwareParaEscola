@@ -21,11 +21,6 @@
     margin: 0px;
 }
 
-body{
-    justify-content: center;
-    align-items: center;
-}
-
 header{
     background-color: var(--corazulforte);
     color: var(--corbranco);
@@ -67,6 +62,9 @@ main{
 }
 
 article{
+    height: 70%;
+    justify-content: center;
+    align-items: center;
     background-color: var(--corcinza);
     padding: 20px;
     margin: 5px 70px 5px 70px;
