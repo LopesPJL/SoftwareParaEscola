@@ -66,8 +66,8 @@ article{
     justify-content: center;
     align-items: center;
     background-color: var(--corcinza);
-    padding: 20px;
-    margin: 5px 70px 5px 70px;
+    padding: 80px;
+    margin: 50px 240px 50px 240px;
     border-radius: 10px;
 }
 
@@ -85,21 +85,43 @@ p{
     font-size: 18px;
 }
 
-footer{
-    background-color: var(--corazulforte);
-    padding: 10px;
-    text-align: center;
-    font-size: 0.8em;
-    padding: 5px;
+ul{
+    text-decoration-line: underline;
+    
 }
 
-footer a{
+.rodape{
+    background-color: var(--corazulforte);
+    padding: 10px;
+    font-size: 0.8em;
+    padding: 30px;
+}
+
+.rodape a{
     color: white;
     font-weight: bolder;
     text-decoration: none;
 }
 
-footer a:hover{
+.rodape a:hover{
     text-decoration: underline;
     color: var(--corcinza);
+}
+
+.contato{
+    text-align: inherit;
+    font-size: 20px;
+    color: var(--corbranco);
+    font-family: var(--fonte-texto);
+    padding: 10px;
+    margin: 10px;
+}
+
+.credito{
+    text-align: center;
+}
+
+.iconin{
+    padding: 5px;
+    background-image: left center;
 }
