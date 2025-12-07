@@ -80,6 +80,7 @@ section{
 }
 
 .botao{
+    text-align: center;
     width: 100%;
     padding: 15px;
     background-color: var(--corazulforte);

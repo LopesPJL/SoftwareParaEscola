@@ -62,16 +62,18 @@ main{
 }
 
 article{
-    height: 70%;
+    height: 50%;
     justify-content: center;
     align-items: center;
-    background-color: var(--corcinza);
-    padding: 80px;
+    background-color: var(--corazulfraco);
+    padding: 4px;
     margin: 50px 240px 50px 240px;
     border-radius: 10px;
 }
 
 aside{
+    color: var(--corbranco);
+    text-align: center;
     margin: 70px;
     padding: 1%;
 }
@@ -88,6 +90,23 @@ p{
 ul{
     text-decoration-line: underline;
     
+}
+.isso{
+    color: var(--corbranco);
+    padding: 10px;
+    font-size: 0.8em;
+    padding: 30px;
+}
+
+.isso a{
+    color: white;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+.isso a:hover{
+    text-decoration: underline;
+    color: var(--corcinza);
 }
 
 .rodape{
